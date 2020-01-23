@@ -1,0 +1,92 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+\usepackage[margin=1in]{geometry}
+
+\titleformat{\section}
+{\bfseries}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{\bfseries}
+{}
+{0em}
+{}
+
+\titleformat{\subsubsection}[runin]
+{\bfseries}
+{}
+{0em}
+{}
+
+\titleformat{\paragraph}
+{}
+{}
+{0em}
+{}
+\titleformat{\texttt}
+{\bfseries}
+{}
+{0em}
+{}
+
+\author{Josiah Mokobo Nyarega}
+\begin{document}
+
+\renewcommand{\maketitle}{
+  \begin{center}
+    {
+      \huge\bfseries
+      \theauthor
+    }
+
+    \href{https://www.linkedin.com/in/josiah-nyarega-84820a103}{
+      \textcolor{blue}{
+        \underline{LinkedIn}
+      }
+    } |
+    \href{https://www.github.com/jmnyarega}{
+      \textcolor{blue}{
+      \underline{Github}
+      }
+    } |
+    \href{jmnyarega@gmail.com}{
+      \textcolor{blue}{
+        \underline{jmnyarega@gmail.com}
+      }
+    }
+\end{center}
+}
+\maketitle
+
+
+\section{EDUCATION}
+\subsection{Masinde Muliro University Of Science and Technology\hspace{130pt} \textbf{2012 to 2016}}
+\paragraph{BSc Information Technology}
+\paragraph{Degree class: Second Class Honors (\(Upper Division\))}
+\section{EXPERIENCE}
+\subsubsection{Software Developer at Andela\hspace{190pt} \textbf{3rd July 2017 to present}}
+\paragraph{Frontend and Backend development: Primarily focused on frontend using HTML, CSS, REACT, JavaScript, \& Node}
+\paragraph{I have also participated in the internal mentorship programs to mentor junior developers as a Technical Team Lead in Simulation and BootCamp programs}
+\paragraph{Worked in distributed and culturally diverse teams with team members across Africa and the US}
+\section{TECHNICAL SKILLS}
+\subsubsection{Programming Languages}
+HTML, CSS, Javascript, SQL
+\subsubsection{Libraries and Framework}
+React, Flask, Tailwind, Jquery, BootStrap, MaterialUI, Node, GraphQL
+\subsubsection{Devops}
+Docker, Kubernetes, AWS, Terraform
+\section{VOLUNTEERING}
+\subsubsection{Mentoring Fellow Co-workers at Work}
+\paragraph{Mentored junior developers within Andela.}
+\subsubsection{TeenCode}
+\paragraph{Participated in The TeenCode Mentoring program.}
+
+\end{document}
