@@ -3,3 +3,8 @@
 *.fls
 *.log
 *.out
+.idea
+*.gz
+*.bcf
+*.xml
+*.zip
